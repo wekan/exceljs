@@ -1,5 +1,10 @@
 ChangeLog
 
+## 2026-02-24 exceljs release 4.5.2
+
+- [Updated dependencies](https://github.com/wekan/exceljs/commit/3b3eb4e84a1ec266ea8e65a31a3f36509ec9d4e3).
+  Thanks to xet7.
+
 ## 2026-02-19 exceljs release 4.5.1
 
 - [Updated minimatch](https://github.com/wekan/exceljs/commit/127a86cc1a817b5208d93fe48b49d84e65992154).
