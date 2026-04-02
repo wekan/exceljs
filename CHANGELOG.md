@@ -28,6 +28,8 @@ used at Meteor 3 WeKan with Node.js 22.x.
   [Part 1](https://github.com/wekan/exceljs/commit/41adde894415fbb5d2616199115a00ff28e23566),
   [Part 2](https://github.com/wekan/exceljs/commit/58adb11ae62845babd1d2f19d98946f4cf51be1a).
   Thanks to moshekaplan.
+- [Fix typo in comment](https://github.com/wekan/exceljs/commit/ce53e877863c7d14c74d9fd92cab1552fb767670).
+  Thanks to divingbeetle at https://github.com/exceljs/exceljs/pull/3003.
 
 ## 2026-02-24 exceljs release 4.5.2
 
