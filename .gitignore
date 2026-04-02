@@ -65,3 +65,4 @@ _SpecRunner.html
 # Ignore xlsx files generated during testing
 *.xlsx
 enpm-lock.yaml
+!test/data/simple_excel.xlsx
