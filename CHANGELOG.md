@@ -1,4 +1,29 @@
-ChangeLog
+# ChangeLog
+
+This package is ExcelJS with updated dependencies,
+used at Meteor 3 WeKan with Node.js 22.x.
+
+## 2026-03-04 exceljs release 4.5.3
+
+- [Updated dependencies](https://github.com/wekan/exceljs/commit/d02af8f7f4cd8146b1fe1d6dc8e9333f31f69163).
+  Thanks to xet7.
+- [Excel file test script from https://github.com/rmartin93/exceljs-fork/commit/2785226](https://github.com/wekan/exceljs/commit/ec62fc906f01884847a6fd06942921526019f769). 
+  Thanks to rmartin93.
+- [Fix getTable() addRow bug and preserve Excel table filter buttons](https://github.com/wekan/exceljs/commit/bb0c76b6a449599cd172e59cb3ed8b974021354e).
+  Thanks to rmartin93.
+- Fix: terminates early on macOS with Node.js 22, causing to fail for...
+  [Part 1](https://github.com/wekan/exceljs/commit/d6f482bcb5b989c488d74e84b1fa3f58cd7ab164),
+  [Part 2](https://github.com/wekan/exceljs/commit/941147b1ee81fe3280d4dc058e7736fc1e29cfde).
+  Thanks to tkambler.
+- Add support for HAN CELL Excel files.
+  [Part 1](https://github.com/wekan/exceljs/commit/f7e3042896a6ffcfa67d2fdaf056a84d847c81a7),
+  [Part 2](https://github.com/wekan/exceljs/commit/d80f584a9b45974f0ed67ea6cd1c9802257ccb59).
+- Add default values for data bar conditional formatting.
+  [Part 1](https://github.com/wekan/exceljs/commit/c7bc77e5f1ac018b9845f9229671defac6039eae),
+  [Part 2](https://github.com/wekan/exceljs/commit/eb7d90f6f0348a1c5c95b2a6d24e3e0faf3ae248).
+  Thanks to protobi-pieter.
+- [Fix prettier config and revert to single quote style](https://github.com/wekan/exceljs/commit/aeee7b4708a5da23d7a88367866c13a7e64448c1).
+  Thanks to protobi-pieter.
 
 ## 2026-02-24 exceljs release 4.5.2
 
