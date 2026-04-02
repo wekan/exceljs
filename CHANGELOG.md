@@ -30,6 +30,12 @@ used at Meteor 3 WeKan with Node.js 22.x.
   Thanks to moshekaplan.
 - [Fix typo in comment](https://github.com/wekan/exceljs/commit/ce53e877863c7d14c74d9fd92cab1552fb767670).
   Thanks to divingbeetle at https://github.com/exceljs/exceljs/pull/3003.
+- Under stream processing, the information of the merged cells in the table cannot be obtained.
+  [Part 1](https://github.com/wekan/exceljs/commit/commit/948a4825d4886769c4bd5486578f511c5e4ccf1a),
+  [Part 2](https://github.com/wekan/exceljs/commit/commit/8e3b2ec137f97886e2428575e3b3444fdf61f982),
+  [Part 3](https://github.com/wekan/exceljs/commit/commit/1fa690317d4d4014bf3eb4467a251101b1b1b43e),
+  [Part 4](https://github.com/wekan/exceljs/commit/commit/8618d25ea1da8af82186c8051ff6f7580d533c71).
+  Thanks to halvee-tech.
 
 ## 2026-02-24 exceljs release 4.5.2
 
