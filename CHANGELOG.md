@@ -24,6 +24,10 @@ used at Meteor 3 WeKan with Node.js 22.x.
   Thanks to protobi-pieter.
 - [Fix prettier config and revert to single quote style](https://github.com/wekan/exceljs/commit/aeee7b4708a5da23d7a88367866c13a7e64448c1).
   Thanks to protobi-pieter.
+- README.md: Formulas: Add note about not including '='.
+  [Part 1](https://github.com/wekan/exceljs/commit/41adde894415fbb5d2616199115a00ff28e23566),
+  [Part 2](https://github.com/wekan/exceljs/commit/58adb11ae62845babd1d2f19d98946f4cf51be1a).
+  Thanks to moshekaplan.
 
 ## 2026-02-24 exceljs release 4.5.2
 
