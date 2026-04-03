@@ -36,6 +36,11 @@ used at Meteor 3 WeKan with Node.js 22.x.
   [Part 3](https://github.com/wekan/exceljs/commit/commit/1fa690317d4d4014bf3eb4467a251101b1b1b43e),
   [Part 4](https://github.com/wekan/exceljs/commit/commit/8618d25ea1da8af82186c8051ff6f7580d533c71).
   Thanks to halvee-tech.
+- Removed critical vulnerabilities from the package.
+  [Part 1](https://github.com/wekan/exceljs/commit/94bec0e63ddecd1fce67516d678b322f4a239ee3),
+  [Part 2](https://github.com/wekan/exceljs/commit/c5ef06a901e6695a62934050f2ab4d2cc449c09c),
+  [Part 3](https://github.com/wekan/exceljs/commit/1056b357aadd811f0e5640e6826f75765d6b727b).
+  Thanks to peterv959.
 
 ## 2026-02-24 exceljs release 4.5.2
 
