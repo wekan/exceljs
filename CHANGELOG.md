@@ -3,6 +3,11 @@
 This package is ExcelJS with updated dependencies,
 used at Meteor 3 WeKan with Node.js 22.x.
 
+## 2026-04-24 exceljs release 4.7.1
+
+- [Updated uuid](https://github.com/wekan/exceljs/commit/27630781cfe7d6b7a2b36f10fc08e4087ce0516c).
+  Thanks to developers of dependencies.
+
 ## 2026-03-04 exceljs release 4.7.0
 
 - [Updated dependencies](https://github.com/wekan/exceljs/commit/d02af8f7f4cd8146b1fe1d6dc8e9333f31f69163).
