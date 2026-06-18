@@ -1,6 +1,6 @@
 {
   "name": "@wekanteam/exceljs",
-  "version": "4.7.2",
+  "version": "4.7.3",
   "description": "Excel Workbook Manager - Read and Write xlsx and csv Files.",
   "private": false,
   "license": "MIT",
@@ -84,7 +84,7 @@
     "pageSetup"
   ],
   "dependencies": {
-    "archiver": "^7.0.0",
+    "archiver": "^8.0.0",
     "dayjs": "^1.11.19",
     "fast-csv": "^5.0.0",
     "jszip": "^3.10.1",
@@ -94,10 +94,5 @@
     "tmp": "^0.2.5",
     "unzipper": "^0.12.0",
     "uuid": "^14.0.0"
-  },
-  "overrides": {
-    "archiver-utils": {
-      "glob": "^13.0.6"
-    }
   }
 }
