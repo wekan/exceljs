@@ -889,6 +889,12 @@ export interface Image {
 	base64?: string;
 	filename?: string;
 	buffer?: Buffer;
+	/**
+	 * Streaming WorkbookWriter only: the image as a readable stream, or a function
+	 * returning one. A function is called when the image is written, so images are
+	 * read one at a time.
+	 */
+	stream?: NodeJS.ReadableStream | (() => NodeJS.ReadableStream);
 }
 export interface IAnchor {
 	col: number;

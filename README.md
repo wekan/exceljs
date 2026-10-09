@@ -1989,7 +1989,13 @@ Adding images to a worksheet is a two-step process.
 First, the image is added to the workbook via the addImage() function which will also return an imageId value.
 Then, using the imageId, the image can be added to the worksheet either as a tiled background or covering a cell range.
 
-Note: As of this version, adjusting or transforming the image is not supported and images are not supported in streaming mode.
+Note: As of this version, adjusting or transforming the image is not supported.
+
+The streaming WorkbookWriter supports `worksheet.addImage(imageId, range)` and
+`worksheet.addBackgroundImage(imageId)` too. There an image may also be given as
+`{ stream, extension }`, where `stream` is a readable stream or a function that
+returns one: images are written one after another, and a function is called only
+when its image is written, so a workbook of many large images holds one at a time.
 
 ### Add Image to Workbook[⬆](#contents)<!-- Link generated with jump2header -->
 
