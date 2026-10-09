@@ -3,7 +3,7 @@
 This package is ExcelJS with updated dependencies,
 used at Meteor 3 WeKan with Node.js 24.x.
 
-## Upcoming exceljs release
+## 2026-10-10 exceljs release 4.7.4
 
 - [Streaming WorkbookWriter works with archiver 8, and places images over cells, reading one image at a time](https://github.com/wekan/exceljs/commit/7b2f9395dc12141ae026f8d28b2eeeb32f457e78).
   Thanks to xet7.
