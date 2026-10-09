@@ -3,7 +3,7 @@
 This package is ExcelJS with updated dependencies,
 used at Meteor 3 WeKan with Node.js 24.x.
 
-## Upcoming exceljs release
+## 2026-10-10 exceljs release 4.7.5
 
 - [Read sheet names without a backtracking regular expression, pin the manual pages' CDN script, update brace-expansion](https://github.com/wekan/exceljs/commit/25db7892434b31c35374bba2433d6479fb005642).
   Thanks to xet7.
